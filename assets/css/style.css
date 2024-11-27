@@ -30,7 +30,7 @@
 /* home page */
 
 .hero-image {
-    background-image: url("../assets/img/hero-image.jpg");
+    background-image: url("../img/hero-image.jpg");
     height: 55vh;
     background-position: center;
     background-size: cover;
