@@ -35,6 +35,16 @@
 }
 
 
+.sig-text3 {
+
+  font-family: "Nunito", sans-serif;
+  
+}
+
+.review-pad {
+  margin-top: 2rem;
+}
+
 
 
 /* home page */
@@ -81,8 +91,9 @@
 }
 
 .nav-letters {
+  font-family: "Nunito", sans-serif;
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* work page */
