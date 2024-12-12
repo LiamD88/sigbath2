@@ -273,3 +273,16 @@ img {
 
 
 
+@media (min-width: 1480px) {
+ 
+  .bottom-pad {
+    margin-top: 10rem;
+  }
+}
+
+@media (min-width: 1480px) {
+ 
+  .top-pad {
+    margin-top: 3rem;
+  }
+}
