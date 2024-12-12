@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
 /* colours */
@@ -16,12 +16,22 @@
   color: #427ed1;
   }
 
+.text-col {
+  color: #000000;
+}
+
 /* fonts */
 
 .sig-text {
 
   font-family: 'Allura', cursive;
 
+}
+
+.sig-text2 {
+
+  font-family: "Nunito", sans-serif;  
+  font-weight: 600;
 }
 
 
@@ -201,4 +211,29 @@ img {
 
 .form-control {
     margin-bottom: 0.5rem;
+}
+
+.descrip-pad {
+  margin-top: 3rem;
+  margin-bottom: -5rem;
+}
+
+.round-button {
+  border-radius: 50rem !important;
+}
+
+.form-center {
+  justify-content: center!important;
+}
+
+
+/* padding */
+
+.quote-text {
+  margin-top: 2rem;
+  margin-bottom: -5rem;
+}
+
+.form-color {
+  background-color: #ececec;
 }
