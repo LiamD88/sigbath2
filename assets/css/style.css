@@ -114,32 +114,12 @@
 }
 
 
-.form-control {
-  margin: 1em 0;
-}
-
 .card-body {
   background-color: #f4f1f1!important;
 }
 
 /* review page */
 
-.form-padding {
-
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-.form-padding2 {
-
-  padding-top: 5em;
-  padding-bottom: 4.5em;
-}
-
-.card-body2 {
-
-  background-color: #427ed1!important; 
-}
 
 
 
@@ -217,4 +197,8 @@ img {
 
 .email-pad {
   padding-top: 18rem;
+}
+
+.form-control {
+    margin-bottom: 0.5rem;
 }
