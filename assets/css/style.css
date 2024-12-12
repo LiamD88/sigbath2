@@ -5,16 +5,16 @@
 /* colours */
 
 .mainbg {
-  background-color: #427ed1; 
+  background-color: #427ed1;
 }
 
 .mainbg2 {
-  background-color: #2b2e32; 
+  background-color: #2b2e32;
 }
 
 .navbar-light .navbar-brand {
   color: #427ed1;
-  }
+}
 
 .text-col {
   color: #000000;
@@ -30,7 +30,7 @@
 
 .sig-text2 {
 
-  font-family: "Nunito", sans-serif;  
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
 
@@ -40,45 +40,45 @@
 /* home page */
 
 .hero-image {
-    background-image: url("../img/hero-image.jpg");
-    height: 55vh;
-    background-position: center;
-    background-size: cover;
+  background-image: url("../img/hero-image.jpg");
+  height: 55vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .signature-text {
-    margin-top: 1.5em;
+  margin-top: 1.5em;
 }
-                        
+
 .ml6 {
-    position: relative;
-    font-weight: 900;
-    font-size: 3.3em;
-  }
-  
-  .ml6 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-  
-  }
-  
-  .ml6 .letter {
-    display: inline-block;
-    line-height: 1em;
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+@media (max-width: 991.98px) {
+  .main-text {
+    font-size: 0.6em;
   }
 
 
-  
-  @media (max-width: 991.98px) { 
-    .main-text{
-      font-size: 0.6em;
-    }  
-    
-  
-  }
+}
 
 .nav-letters {
   font-size: 2em;
@@ -93,12 +93,12 @@
 }
 
 
-.car-hov:hover {  
+.car-hov:hover {
   -webkit-box-shadow: 4px 4px 2.5px #7D9CB1;
-          box-shadow: 4px 4px 2.5px #7D9CB1;
+  box-shadow: 4px 4px 2.5px #7D9CB1;
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
@@ -125,7 +125,7 @@
 
 
 .card-body {
-  background-color: #f4f1f1!important;
+  background-color: #f4f1f1 !important;
 }
 
 /* review page */
@@ -137,70 +137,92 @@
 
 
 .align-center {
-    text-align: center;
+  text-align: center;
 }
+
 .hash-list {
-    display: block;
-    padding: 0;
-    margin: 0 auto;
+  display: block;
+  padding: 0;
+  margin: 0 auto;
 }
 
-@media (min-width: 768px){
-    .hash-list.cols-3 > li:nth-last-child(-n+3) {
-        border-bottom: none;
-    }
+@media (min-width: 768px) {
+  .hash-list.cols-3>li:nth-last-child(-n+3) {
+    border-bottom: none;
+  }
 }
-@media (min-width: 768px){
-    .hash-list.cols-3 > li {
-        width: 33.3333%;
-    }
+
+@media (min-width: 768px) {
+  .hash-list.cols-3>li {
+    width: 33.3333%;
+  }
 }
-.hash-list > li {
-    display: block;
-    float: left;
+
+.hash-list>li {
+  display: block;
+  float: left;
 }
-.pad-30, .pad-30-all > * {
-    padding: 30px;
+
+.pad-30,
+.pad-30-all>* {
+  padding: 30px;
 }
+
 img {
-    border: 0;
-}
-.mgb-20, .mgb-20-all > * {
-    margin-bottom: 20px;
-}
-.wpx-100, .wpx-100-after:after {
-    width: 100px;
-}
-.img-round, .img-rel-round {
-    border-radius: 50%;
-}
-.padb-30, .padb-30-all > * {
-    padding-bottom: 30px;
+  border: 0;
 }
 
-.mgb-40, .mgb-40-all > * {
-    margin-bottom: 40px;
+.mgb-20,
+.mgb-20-all>* {
+  margin-bottom: 20px;
 }
+
+.wpx-100,
+.wpx-100-after:after {
+  width: 100px;
+}
+
+.img-round,
+.img-rel-round {
+  border-radius: 50%;
+}
+
+.padb-30,
+.padb-30-all>* {
+  padding-bottom: 30px;
+}
+
+.mgb-40,
+.mgb-40-all>* {
+  margin-bottom: 40px;
+}
+
 .align-center {
-    text-align: center;
+  text-align: center;
 }
+
 [class*="line-b"] {
-    position: relative;
-    padding-bottom: 20px;
-    border-color: #E6AF2A;
+  position: relative;
+  padding-bottom: 20px;
+  border-color: #E6AF2A;
 }
-.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
-    color: #222;
+
+.fg-text-d,
+.fg-hov-text-d:hover,
+.fg-active-text-d.active {
+  color: #222;
 }
+
 .font-cond-b {
-    font-weight: 700 !important;
+  font-weight: 700 !important;
 }
 
 
 /* work page */
 
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-color: #000000;
 }
 
@@ -210,7 +232,7 @@ img {
 }
 
 .form-control {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .descrip-pad {
@@ -223,7 +245,7 @@ img {
 }
 
 .form-center {
-  justify-content: center!important;
+  justify-content: center !important;
 }
 
 
